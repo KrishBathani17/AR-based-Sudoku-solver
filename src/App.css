@@ -1,0 +1,45 @@
+body {
+  position: absolute;
+  overflow:auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: #151515;
+  position: relative;
+}
+
+.video-preview {
+  width: 90%;
+  height: 85%;
+  margin-top: 1%;
+  margin-left: 5%;
+  z-index: 100;
+  position: absolute;
+  --webkit-transform-style: preserve-3d;
+  border-radius: 20px;
+}
+
+.preview-canvas {
+  width: 90%;
+  height: 85%;
+  margin-top: 1%;
+  margin-left: 5%;
+  position: absolute;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(193, 193, 193, 0.5);
+  z-index: 1000;
+}
+
+.stats-panel {
+  position: absolute;
+  bottom: 1%;
+  z-index: 2000;
+}
+
+/* .stats-panel div {
+  margin-left: 10px;
+  margin-right: 10px;
+} */
